@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="newbiz.css">
+    <link rel="stylesheet" href="empty.css">
+    
+   
+    <link rel="stylesheet" href="../dashboard.css">
+    <title>Timbu | Business</title>
+</head>
+<body>
+    <div class="display">
+        <div class="button-section">
+            <button class="btn2" id="purchase-btn" onclick="showPurchaseTab()"> Purchase and reservation</button>
+            <button class="btn1" id="business-btn" onclick="showMyBusinessTab()"> My business</button>
+        </div>
+
+        <!-- MY BUSINESSES -->
+        <div class="businesses-container">
+            <div class="bus-nav">
+                <h2> Samuel's Technology</h2>
+            </div>
+
+            <div class="bus-tabs">
+                <button class="btn2  " id="non-r" onclick="noOrders()">Orders</button>
+                <button class="btn2 active-tab" onclick="noProducts()">Products</button>
+                <button class="btn2" onclick="noInfo()">Info</button>
+            </div>
+
+            <div class="container-boxs">
+                <div class="boxs">
+                    <h1 style="font-size: 16px;">
+                        You haven’t added any product yet
+                       
+    
+                    </h1>
+    
+                    <p style="font-weight: 100;">
+                        To make your product visible to your customers, kindly add your products now
+                    </p>
+    
+                    <button class="box-btn1" onclick="addProduct()"> Add a product </button>
+                </div>
+    
+            </div>   
+
+            
+            
+
+            
+            
+            
+        </div>
+    <script src="../dashboard.js"></script>
+</body>
+</html>
