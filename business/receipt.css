@@ -1,0 +1,395 @@
+*,*::after,*::before{-moz-box-sizing:inherit;box-sizing:inherit}html{scroll-behavior:smooth}.pageinations{text-align:center}
+
+
+html{
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+
+body{
+	font-family: Barlow;
+	 box-sizing: border-box;
+	 background-color: #f1f2f6;
+     justify-content: center;
+     align-items: center;
+     margin:0;
+     font-family: 'Overpass', sans-serif;
+}
+
+
+.button-section{
+    width:100%;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    background: #FFFFFF;
+}
+
+.container-list{
+    align-items: center;
+    justify-content: center;
+    padding: 20px 100px;
+}
+
+button{
+    font-size: 16px;
+    height:50px;
+    cursor:pointer;
+    outline: none;
+    border:none;
+    width:17%;
+    font-family: 'Overpass', sans-serif;
+}
+
+.btn1{
+    color: #f1f2f6;
+    background: #00AEFF;
+}
+
+.btn2{
+    color: #333333;
+    background:transparent;
+}
+
+
+
+
+.container-box{
+    width: 871px;
+height: 725px;
+    margin: 10px auto;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    position:relative;
+}
+
+.top-grid{
+    display: flex;
+    border-bottom: 1px solid #EAEAEA;
+
+
+    
+
+}
+
+
+h2{
+
+
+    padding-left: 300px;
+    
+    
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 37px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: flex-end;
+    
+    color: #000000;
+    
+    }
+
+h3{
+    height: 14px;
+
+
+font-family: Overpass;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 16px;
+/* identical to box height, or 67% */
+padding-top: 40px;
+padding-left: 25px;
+display: flex;
+align-items: center;
+
+color: #1A2B49;
+}
+
+
+
+h4{
+    height: 14px;
+left: 771px;
+top: 36px;
+
+font-family: Overpass;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 100% */
+position: absolute;
+display: flex;
+align-items: flex-end;
+
+/* Primary Colour / Blue */
+
+color: #00AEFF;
+}
+
+.ID{
+
+padding: 20px 30px;
+
+font-family: Overpass;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 25px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+/* Secondary Colour / Dark Blue */
+
+color: #1A2B49;
+}
+
+
+
+h5{
+    position: absolute;
+    left: 3.9%;
+right: 91.73%;
+top: 20%;
+
+
+font-family: Overpass;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 25px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+/* Secondary Colour / Dark Blue */
+
+color: #1A2B49;
+}
+
+
+
+h6{
+    position: absolute;
+    left: 73.94%;
+right: 24%;
+top: 20%;
+
+font-family: Overpass;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 25px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+/* Secondary Colour / Dark Blue */
+
+color: #1A2B49;
+
+}
+
+.grid-1 p{
+    font-family: Overpass;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+/* Text Colour / 2 */
+padding-top: 30px;
+padding-left: 30px;
+color: #4F4F4F;
+
+}
+
+.grid-2 .text-2{
+    position: absolute;
+    padding-left: 650px;
+    top: 30%;
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    /* Text Colour / 2 */
+    
+    color: #4F4F4F;
+    
+}
+
+
+table, th, td {
+    border: 1px solid #EAEAEA;
+    border-collapse: collapse;
+  }
+
+
+  .cancel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    
+    position: absolute;
+    width: 193px;
+    height: 38px;
+    left: 642px;
+    top: 657px;
+    
+    background: #FF0000;
+    border-radius: 2px
+  }
+
+  .table-container{
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    margin-bottom: 20px;
+  }
+
+
+ 
+
+
+  @media screen and (max-width: 1000px) {
+    .grid{
+        padding:10px 20px;
+    
+    }
+
+    .about{
+        width: 50%;
+        margin-left:-50px;
+    }
+
+    button{
+        width:25%;
+    }
+    
+}
+
+@media screen and (max-width: 900px) {
+    .container-list{
+        padding: 20px 50px;
+    }
+
+    .about{
+        width: 55%;
+        margin-left:0px;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .container-list{
+        padding: 20px;
+    }
+
+    button{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+}
+
+@media screen and (max-width: 680px) {
+    .about{
+        width: 65%;
+    }
+    .container-row{
+        height: 430px;   
+    }
+
+    .container-top{
+        flex-direction: column;
+        border-bottom:none;
+    }
+    
+    .title{
+        border-right:none;
+    }
+
+    .p-date{
+        margin-left: 0px;
+        margin-top: -30px;
+    }
+    
+    .grid{
+       flex-wrap: wrap;
+    }
+
+    .profile, .grid-1{
+        position: absolute;
+        bottom:80px;
+        left: 20px;
+    }
+
+    .grid-1{
+        bottom:-15px;
+    }
+
+    .grid-1 h6 {
+        margin-top: -15px;
+    }
+
+}
+
+@media screen and (max-width: 530px) {
+    button{
+        width:50%;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .grid{
+        max-height: 130px;
+        flex-wrap: nowrap;
+    }
+
+    .profile, .grid-1{
+        bottom:80px;
+    }
+
+    .grid-1{
+        bottom:-20px;
+    }
+
+    .text {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        margin-left: 20px;
+    }
+    
+}
+
+
+
+
