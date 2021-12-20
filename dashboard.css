@@ -26,6 +26,23 @@ body{
     background: #FFFFFF;
 }
 
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
 .container-list,
 .businesses-container{
     align-items: center;
@@ -296,6 +313,8 @@ color:#333333;
     font-size: 14px;
     background-color: #FFFFFF;
     height: 40px;
+    align-items: center;
+    justify-content: center;
 }
 
 .bus-row-bottom button{

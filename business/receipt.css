@@ -57,7 +57,7 @@ button{
 
 .container-box{
     width: 871px;
-height: 725px;
+height: 750px;
     margin: 10px auto;
     background: #FFFFFF;
     border: 1px solid #EAEAEA;
@@ -96,6 +96,24 @@ h2{
     color: #000000;
     
     }
+
+
+    a:link {
+        text-decoration: none;
+      }
+      
+      a:visited {
+        text-decoration: none;
+      }
+      
+      a:hover {
+        text-decoration: none
+        ;
+      }
+      
+      a:active {
+        text-decoration: underline;
+      }
 
 h3{
     height: 14px;
@@ -157,12 +175,11 @@ color: #1A2B49;
 }
 
 
-
 h5{
     position: absolute;
     left: 3.9%;
 right: 91.73%;
-top: 20%;
+top: 23%;
 
 
 font-family: Overpass;
@@ -186,7 +203,7 @@ h6{
     position: absolute;
     left: 73.94%;
 right: 24%;
-top: 20%;
+top: 23%;
 
 font-family: Overpass;
 font-style: normal;
@@ -260,11 +277,20 @@ table, th, td {
     width: 193px;
     height: 38px;
     left: 642px;
-    top: 657px;
+    top: 680px;
     
-    background: #FF0000;
+    background:red;
     border-radius: 2px
+    
   }
+
+  .cancel:hover {background-color: #3e8e41}
+
+.cancel:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 
   .table-container{
     width: 95%;

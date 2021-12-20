@@ -42,7 +42,7 @@ justify-content: center;
 position: relative;
 top: 15px;
 left: 35px;
-
+color: white;
 
 }
 
@@ -65,14 +65,15 @@ color: #000000;
 }
 .container-boxs{
     position: absolute;
-width: 1240px;
+width: 80%;
 height: 239px;
-left: 100px;
-top: 296px;
+margin-top: 2%;
+margin-left: 3%;
 
 background: #FFFFFF;
 border: 1px solid #EAEAEA;
 border-radius: 8px;
+align-items: center;
 }
 
 
