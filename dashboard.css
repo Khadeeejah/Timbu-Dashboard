@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400&display=swap');
 *,*::after,*::before{-moz-box-sizing:inherit;box-sizing:inherit}html{scroll-behavior:smooth}.pageinations{text-align:center}
 
+div.display * {
+    font-family: name !important;
+ }
+
+
 
 html{
     -moz-box-sizing:border-box;
@@ -200,19 +205,40 @@ font-family: Overpass;
 .grid-1{
     font-size: 24px;
     line-height: 16px;
+    
 }
 
 .grid-1 h5{
+    font-family: Overpass;
     font-style: normal;
-    font-weight: normal;  
-    color:#4f4f4f;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 16px;
+    /* identical to box height, or 67% */
+
+    display: flex;
+    align-items: flex-end;
+    
+    /* Text Colour / 2 */
+    
+    color: #4F4F4F;
+    
 }
 
 .grid-1 h6{
-    font-style: normal;
-    font-weight: bold;
-    color:#333333;
-    margin-top:-10px;
+    font-family: Overpass;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 16px;
+/* identical to box height, or 67% */
+
+display: flex;
+align-items: flex-end;
+
+/* Text Colour/1 */
+
+color: #333333;
 }
 
 .profile{
@@ -716,7 +742,7 @@ color:#333333;
         flex-wrap: nowrap;
     }
 
-    .profile, .grid-1{
+    .profile, grid-1{
         bottom:80px;
     }
 
