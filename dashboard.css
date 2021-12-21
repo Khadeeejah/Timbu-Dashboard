@@ -27,6 +27,22 @@ body{
 }
 
 
+
+.k-head{
+    font-family: Overpass;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 37px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+
+color: #000000;
+
+}
+
 a:link {
     text-decoration: none;
   }

@@ -10,11 +10,394 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <link rel="stylesheet" href="../dashboard.css">
-    <!-- <link rel="stylesheet" href="/app.css">
-    <link rel="stylesheet" href="/generic.css"> -->
+     <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="generic.css"> 
     <title>Timbu | Business</title>
 </head>
 <body>
+
+
+    <nav class="navbar navbar-default new-navbar ">
+        <div class="container-fluid">
+
+            <!-- Mobile View -->
+            <div class="navbar-header new-navbar-header">
+                <button id="navbar-toggle" type="button" class="navbar-toggle navbar-toggle-main" data-toggle=""
+                    data-target="#hngNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="visibility-hidden">MENU</span>
+                </button>
+                <a href="https://hotels.ng/" class="hng-logo">
+                    <!-- Conditionally change logo based on configurations -->
+                    <!-- Izza white label something -->
+                    <!-- Brand Logo -->
+                    <svg style="height: 50px;">
+                        <use xlink:href="../business/logo.svg#hng-logo"></use>
+                    </svg>
+                </a>
+
+                <ul class="nav navbar-nav navbar-right new-navbar-right hidden-md hidden-lg">
+                    <li class="new-navbar-right-contact dropdown">
+                        <div>
+                            <img alt="call center image" class="contact-img-md"
+                                src="https://static.hotels.ng/v7/img/navbar-contact-min.jpg">
+                            <img alt="call center image" class="contact-img-sm"
+                                src="https://static.hotels.ng/v7/img/phone-icon.svg">
+                            <div class="dropdown">
+
+                                <button class="dropdown-toggle" type="button" data-toggle="dropdown">
+
+                                    <span class="contact-text-md">You can call us to book your hotel</span> <br
+                                        class="contact-text-md">
+                                    <span class="contact-text-md">+234 700 880 8800</span>
+                                    <span class="contact-text-sm">Call us</span>
+
+                                    <span class="caret"></span>
+                                </button>
+
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <!--for whatsapp web-->
+                                    <div class="dropdown__item">
+                                        <a href="https://web.whatsapp.com/send?text=How can we help you!&amp;phone=2348182180211"
+                                            target="_blank" class="dropdown__link">
+                                            <!-- <img src="../business/header.svg#hng-whatsapp" width="23" height="23" alt="whatsapp"> -->
+                                            <svg class="hng-whatsapp hng-lg" style="margin-top: 0px;">
+                                                <use
+                                                    xlink:href="../business/header.svg#hng-whatsapp">
+                                                </use>
+                                            </svg>+234 818 218 0211
+                                        </a>
+                                    </div>
+                                    <div class="dropdown__item">
+                                        <a href="tel:+234 814 880 8800" class="dropdown__link">
+                                            <svg class="hng-phone">
+                                                <use xlink:href="../business/icons.svg#hng-phone">
+                                                </use>
+                                            </svg>
+                                            +234 814 880 8800
+                                        </a>
+                                    </div>
+                                    <div class="dropdown__item">
+                                        <a href="tel:+234 818 491 5873" class="dropdown__link">
+                                            <svg class="hng-phone">
+                                                <use xlink:href="../business/icons.svg#hng-phone">
+                                                </use>
+                                            </svg>
+                                            +234 818 491 5873
+                                        </a>
+                                    </div>
+                                    <div class="dropdown__item">
+                                        <a href="tel:+234 701 672 9103" class="dropdown__link">
+                                            <svg class="hng-phone">
+                                                <use xlink:href="../business/icons.svg#hng-phone">
+                                                </use>
+                                            </svg>
+                                            +234 701 672 9103
+                                        </a>
+                                    </div>
+                                    <div class="dropdown__item">
+                                        <a href="skype:+234 810 495 9606" class="dropdown__link">
+                                            <svg class="hng-phone">
+                                                <use xlink:href="../business/icons.svg#hng-skype">
+                                                </use>
+                                            </svg>
+                                            +234 810 495 9606
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="new-navbar-right-currency">
+                        <div class="navbar__item dropdown">
+                            <button class="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                <!-- <img alt="Country Icon" src="https://static.hotels.ng/v7/img/flags/naira.svg" /> -->
+                                <svg class="hng-naira">
+                                    <use xlink:href="../business/header.svg#hng-naira"></use>
+                                </svg>
+                                <span class="v7-naira-sign" style="padding-left: 4px;">₦ </span>
+                                <!-- Dropdown icon -->
+                                <span class="dropdown-icon">
+                                    <svg class="hng-arrow-down-b icon-xs">
+                                        <use xlink:href="../business/icons.svg#hng-arrow-down-b">
+                                        </use>
+                                    </svg>
+                                </span>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <div class="dropdown-caption">Choose your preferred currency for the hotel rates:</div>
+                                <div class="dropdown__item active">
+                                    <a href="#" data-currency-shortname="NGN" data-selected="1"
+                                        class="dropdown__link currency__option">₦<span
+                                            class="margin-right--10"></span>Nigerian Naira</a>
+                                </div>
+                                <div>
+                                    <a href="#" data-currency-shortname="EUR" data-selected=""
+                                        class="dropdown__link currency__option">€<span
+                                            class="margin-right--10"></span>European Euro</a>
+                                </div>
+                                <div>
+                                    <a href="#" data-currency-shortname="USD" data-selected=""
+                                        class="dropdown__link currency__option">$<span
+                                            class="margin-right--10"></span>U.S. dollar</a>
+                                </div>
+                                <div>
+                                    <a href="#" data-currency-shortname="GBP" data-selected=""
+                                        class="dropdown__link currency__option">£<span
+                                            class="margin-right--10"></span>British Pound Sterling</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--Mobile View Ends-->
+
+
+            <div class="hidden-xs hidden-sm">
+                <ul class="nav navbar-nav navbar-right new-navbar-right hidden-xs hidden-sm">
+
+                    <li>
+                        <a href="https://api.whatsapp.com/send?phone=2348182180211" class="skype-link" target="_blank">
+                            <span class="">
+                                <!-- <img alt="" class="v7-whatsapp-image" src="../business/header.svg#hng-whatsapp" /> -->
+                                <svg class="hng-whatsapp hng-lg" style="margin-top: 0px;">
+                                    <use xlink:href="../business/header.svg#hng-whatsapp"></use>
+                                </svg>
+                            </span>
+                            <span class="visibility-hidden">Chat using whatsapp web</span>
+                        </a>
+                    </li>
+                    <li class="new-navbar-right-contact dropdown">
+                        <div>
+                            <div class="navbar-contact-image-container">
+                                <img alt="call center image" class="contact-img-md"
+                                    src="https://static.hotels.ng/v7/img/navbar-contact-min.jpg">
+                                <img alt="call center image" class="contact-img-sm"
+                                    src="https://static.hotels.ng/v7/img/phone-icon.svg">
+                            </div>
+                            <div class="dropdown">
+                                <button class="dropdown-toggle" type="button" data-toggle="dropdown">
+                                    <span class="contact-text-md contact-text-main">You can call us to book your
+                                        hotel</span>
+                                    <span class="contact-text-md">+234 700 880 8800</span>
+                                    <span class="caret"></span>
+                                </button>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <div class="dropdown__item visible-xs">
+                                        <a href="https://api.whatsapp.com/send?phone=2348182180211&amp;text=I'm%20interested%20in%20booking%20a%20hotel"
+                                            class="dropdown__link">
+                                            <!-- <img src="../business/header.svg#hng-whatsapp" width="23" height="23" alt="whatsapp"> -->
+                                            <svg class="hng-whatsapp hng-lg" style="margin-top: 0px;">
+                                                <use
+                                                    xlink:href="../business/header.svg#hng-whatsapp">
+                                                </use>
+                                            </svg>+234 818 218 0211
+                                        </a>
+                                    </div>
+                                    <!--for whatsapp web-->
+                                    <div class="dropdown__item hidden-xs">
+                                        <a href="https://web.whatsapp.com/send?text=How can we help you!&amp;phone=2348182180211"
+                                            target="_blank" class="dropdown__link">
+                                            <!-- <img src="../business/header.svg#hng-whatsapp" width="23" height="23" alt="whatsapp"> -->
+                                            <svg class="hng-whatsapp hng-lg" style="margin-top: 0px;">
+                                                <use
+                                                    xlink:href="../business/header.svg#hng-whatsapp">
+                                                </use>
+                                            </svg>+234 818 218 0211
+                                        </a>
+                                    </div>
+                                    <div class="dropdown__item">
+                                        <a href="tel:+234 814 880 8800" class="dropdown__link">
+                                            <svg class="hng-phone">
+                                                <use xlink:href="../business/icons.svg#hng-phone">
+                                                </use>
+                                            </svg>
+                                            +234 814 880 8800
+                                        </a>
+                                    </div>
+                                    <div class="dropdown__item">
+                                        <a href="tel:+234 810 495 9606" class="dropdown__link">
+                                            <svg class="hng-phone">
+                                                <use xlink:href="../business/icons.svg#hng-phone">
+                                                </use>
+                                            </svg>
+                                            +234 810 495 9606
+                                        </a>
+                                    </div>
+                                    <div class="dropdown__item">
+                                        <a href="tel:+234 701 672 9103" class="dropdown__link">
+                                            <svg class="hng-phone">
+                                                <use xlink:href="../business/icons.svg#hng-phone">
+                                                </use>
+                                            </svg>
+                                            +234 701 672 9103
+                                        </a>
+                                    </div>
+                                    <div class="dropdown__item">
+                                        <a href="skype:+234 818 491 5873" class="dropdown__link">
+                                            <svg class="hng-phone">
+                                                <use xlink:href="../business/icons.svg#hng-skype">
+                                                </use>
+                                            </svg>
+                                            +234 818 491 5873
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="new-navbar-right-currency">
+
+                        <div class="navbar__item dropdown">
+                            <button class="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                <!-- <img alt="Country Icon" src="https://static.hotels.ng/v7/img/flags/naira.svg" /> -->
+                                <svg class="hng-naira hng-lg">
+                                    <use xlink:href="../business/header.svg#hng-naira"></use>
+                                </svg>
+                                <span class="v7-naira-sign" style="padding-left: 4px;">₦</span>
+                                <!-- Dropdown icon -->
+                                <span class="dropdown-icon">
+                                    <svg class="hng-arrow-down-b icon-xs">
+                                        <use xlink:href="../business/icons.svg#hng-arrow-down-b">
+                                        </use>
+                                    </svg>
+                                </span>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <div class="dropdown-caption">Choose your preferred currency for the hotel rates:</div>
+                                <div class="dropdown__item active">
+                                    <a href="#" data-currency-shortname="NGN" data-selected="1"
+                                        class="dropdown__link currency__option">₦<span
+                                            class="margin-right--10"></span>Nigerian Naira</a>
+                                </div>
+                                <div>
+                                    <a href="#" data-currency-shortname="EUR" data-selected=""
+                                        class="dropdown__link currency__option">€<span
+                                            class="margin-right--10"></span>European Euro</a>
+                                </div>
+                                <div>
+                                    <a href="#" data-currency-shortname="USD" data-selected=""
+                                        class="dropdown__link currency__option">$<span
+                                            class="margin-right--10"></span>U.S. dollar</a>
+                                </div>
+                                <div>
+                                    <a href="#" data-currency-shortname="GBP" data-selected=""
+                                        class="dropdown__link currency__option">£<span
+                                            class="margin-right--10"></span>British Pound Sterling</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="dropdown new-navbar-right-account">
+                        <!-- User Avatar -->
+                        <span class="user-avatar">
+                            <div class="user-avatar__icon">
+                                <img alt="Person Icon" src="https://static.hotels.ng/v7/img/default.svg"
+                                    style="width: 32px; height: 35px;">
+                            </div>
+                        </span>
+                        <button class="dropdown-toggle" type="button" data-toggle="dropdown">
+                            <span class="navbar-account-text">Account</span><span class="caret"></span>
+                        </button>
+
+                        <!-- User account Dropdown -->
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <div class="content">
+                                <span title="" class="text-center username-mobile visible-xs"></span>
+                                <p class="desc">Sign in to access exclusive member deals</p>
+                                <a href="https://hotels.ng/signin" class="btn btn-primary btn-block sign-in">Sign in</a>
+                                <p class="sign-up-link">New here? <a href="https://hotels.ng/signup">Sign up</a></p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="new-navbar-mobile " id="hngNavbar">
+
+                <div class="nav navbar-nav new-navbar-items hidden-lg hidden-md">
+                    <div class="new-navbar-mobile-header ">
+                        <button type="button" class="navbar-toggle navbar-toggle-side" data-toggle=""
+                            data-target="#hngNavbar">
+                            <svg width="24" height="24" fill="#303030" class="hng-search new-navbar-close">
+                                <use xlink:href="../business/icons.svg#hng-close"></use>
+                            </svg>
+                            <span class="visibility-hidden">Close</span>
+                        </button>
+                        <!-- <img alt="HNG Logo" src="https://static.hotels.ng/v7/img/hng-logo.svg"> -->
+                        <svg class="hng-logo">
+                            <use xlink:href="../business/header.svg#hng-logo"></use>
+                        </svg>
+                    </div>
+
+                    <div class="nav-currency-collapse visible-xs">
+                        <span>Change Currency</span>
+                        <button class="new-btn-blue-border" data-toggle="collapse" data-target="#currencyMenu"
+                            aria-haspopup="true" aria-expanded="true">
+                            <!-- <img alt="Country Icon" src="https://static.hotels.ng/v7/img/flags/naira.svg" /> -->
+                            <svg class="hng-naira">
+                                <use xlink:href="../business/header.svg#hng-naira"></use>
+                            </svg>
+                            <span class="v7-naira-sign" style="padding-left: 4px;">₦ Nigerian Naira</span>
+                            <!-- Dropdown icon -->
+                            <span class="dropdown-icon">
+                                <svg class="hng-arrow-down-b icon-xs">
+                                    <use xlink:href="../business/icons.svg#hng-arrow-down-b"></use>
+                                </svg>
+                            </span>
+                        </button>
+                        <div id="currencyMenu" class="collapse ">
+                            <div class="dropdown__item active">
+                                <a href="#" data-currency-shortname="NGN" data-selected="1"
+                                    class="dropdown__link currency__option">₦<span
+                                        class="margin-right--10"></span>Nigerian Naira</a>
+                            </div>
+                            <div>
+                                <a href="#" data-currency-shortname="EUR" data-selected=""
+                                    class="dropdown__link currency__option">€<span
+                                        class="margin-right--10"></span>European Euro</a>
+                            </div>
+                            <div>
+                                <a href="#" data-currency-shortname="USD" data-selected=""
+                                    class="dropdown__link currency__option">$<span class="margin-right--10"></span>U.S.
+                                    dollar</a>
+                            </div>
+                            <div>
+                                <a href="#" data-currency-shortname="GBP" data-selected=""
+                                    class="dropdown__link currency__option">£<span
+                                        class="margin-right--10"></span>British Pound Sterling</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="new-navbar-mobile-btns">
+                        <a href="https://hotels.ng/signin" class="new-btn-blue-border">Login</a>
+                        <a href="https://hotels.ng/signup" class="new-btn-primary">Create Account</a>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="display">
         <div class="button-section">
             <button class="btn2" id="purchase-btn" onclick="showPurchaseTab()"> Purchase and reservation</button>
