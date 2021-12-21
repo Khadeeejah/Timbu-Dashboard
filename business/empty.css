@@ -32,6 +32,8 @@ body{
     align-items: center;
     justify-content: center;
     padding: 20px 100px;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 
@@ -66,6 +68,8 @@ body{
     box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.06);
     border-radius: 4px;
     position:relative;
+    max-width: 100%;
+    overflow-x: hidden;
 }
   
 
@@ -143,17 +147,13 @@ color:#4f4f4f;
     line-height: 16px;
 }
 
-.grid-1 h5{
-    font-style: normal;
-    font-weight: normal;  
-    color:#4f4f4f;
-}
+
 
 .grid-1 h6{
-    font-style: normal;
-    font-weight: bold;
-    color:#333333;
-    margin-top:-10px;
+    font-family: Overpass;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
 }
 
 .profile{
@@ -867,6 +867,8 @@ top: 291px;
 background: #FFFFFF;
 border: 1px solid #EAEAEA;
 border-radius: 8px;
+max-width: 100%;
+    overflow-x: hidden;
 }
 
 
@@ -941,16 +943,14 @@ color: #333333;
 }
 
 .grid-1 h5{
-
     position: absolute;
-width: 133px;
-height: 16px;
-left: 30px;
-top: 101px;
-
-font-family: Overpass;
+    width: 133px;
+    height: 16px;
+    left: 30px;
+    top: 101px;
+    font-family: Overpass !important;
 font-style: normal;
-font-weight: 600;
+font-weight: 600 !important;
 font-size: 16px;
 line-height: 16px;
 /* identical to box height, or 100% */
@@ -958,7 +958,8 @@ line-height: 16px;
 display: flex;
 align-items: center;
 
-color: #969696;
+color: #969696 !important;
+    
 
 }
 
@@ -1562,6 +1563,9 @@ justify-content: center;
 background: #FFFFFF;
 border: 1px solid #EAEAEA;
 border-radius: 8px;
+max-width: 100%;
+overflow-x: hidden;
+
 
 }
 
@@ -1594,6 +1598,8 @@ top: 296px;
 background: #FFFFFF;
 border: 1px solid #EAEAEA;
 border-radius: 8px;
+max-width: 100%;
+    overflow-x: hidden;
 }
 
 
