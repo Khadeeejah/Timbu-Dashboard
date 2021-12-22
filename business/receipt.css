@@ -6,7 +6,7 @@ html{
     box-sizing:border-box;
 }
 div.display * {
-    font-family: name !important;
+    font-family: 'Overpass', sans-serif !important;
  }
 
 

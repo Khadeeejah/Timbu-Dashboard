@@ -10,6 +10,10 @@
     position:relative;
 }
 
+
+div.display * {
+    font-family: 'Overpass', sans-serif !important;
+ }
 .res,
 .order{
     display:flex;
