@@ -2,7 +2,7 @@
 *,*::after,*::before{-moz-box-sizing:inherit;box-sizing:inherit}html{scroll-behavior:smooth}.pageinations{text-align:center}
 
 div.display * {
-    font-family: name !important;
+    font-family: 'Overpass', sans-serif !important;
  }
 
 
