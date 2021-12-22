@@ -5,6 +5,10 @@ html{
     -moz-box-sizing:border-box;
     box-sizing:border-box;
 }
+div.display * {
+    font-family: name !important;
+ }
+
 
 
 body{
