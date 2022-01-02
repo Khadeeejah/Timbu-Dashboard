@@ -1,3 +1,29 @@
+div.display * {
+    font-family: 'Overpass', sans-serif !important;
+ }
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+
+    box-sizing: border-box;
+    background-color: #f1f2f6;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    font-family: 'Overpass', sans-serif !important;
+    overflow-x: hidden;
+}
+
+
+
+
+
 .all-order,
 .all-res{
     height: auto;
