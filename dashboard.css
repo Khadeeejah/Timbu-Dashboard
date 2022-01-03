@@ -393,6 +393,7 @@ color:#333333;
     height: 40px;
     align-items: center;
     justify-content: center;
+    width: 161px;
 }
 
 .bus-row-bottom button{
@@ -424,6 +425,7 @@ color:#333333;
     .container-list, .businesses-container {
         padding: 20px 60px;
     }
+   
 }
 
 @media screen and (max-width: 1000px) {
@@ -740,11 +742,11 @@ color:#333333;
         margin-left: 0px;
     }
     
-    /* button{
+     button{
         width:50%;
         font-size: 12px;
         line-height: 14px;
-    } */
+    } 
     .grid{
         max-height: 130px;
         flex-wrap: nowrap;
