@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400&display=swap');
 *,*::after,*::before{-moz-box-sizing:inherit;box-sizing:inherit}html{scroll-behavior:smooth}.pageinations{text-align:center}
 
+div.display * {
+    font-family: 'Overpass', sans-serif !important;
+ }
+
+
 
 html{
     -moz-box-sizing:border-box;
@@ -17,5 +22,39 @@ body{
      align-items: center;
      margin:0;
      font-family: 'Overpass', sans-serif;
+     overflow-x: hidden;
 }
+
+
+.empty-container{
+    width: 1080px;
+    height: 104px;
+align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+    
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 8px;
+    
+}
+
+.empty-container .kh1{
+    font-family: Overpass;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 23px;
+/* identical to box height, or 147% */
+align-items: center;
+justify-content: center;
+color: #000000;
+
+padding: 20px 40px;
+
+
+}
+
+
+
 
