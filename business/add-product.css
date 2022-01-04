@@ -465,7 +465,7 @@ width: 193px;
 height: 38px;
 left: 35px;
 top: 151px;
-
+border: none;
 background: #00AEFF;
 border-radius: 2px;
     }
@@ -1115,6 +1115,9 @@ padding:10px;
 display: block;
 margin: auto;
 margin-top: 30px;
+border: none;
+width: 193px;
+height: 38px;
 }
 
 @media screen and (max-width: 1300px) {
