@@ -29,3 +29,60 @@ body{
 }
 
 
+.kcontainer-box{
+    width: 871px;
+height: 239px;
+background: #FFFFFF;
+border: 1px solid #EAEAEA;
+border-radius: 8px;
+justify-content: center;
+align-items: center;
+padding: 20px 20px;
+margin: 90px 120px  ;
+}
+
+
+.kbox{
+    width: 734px;
+height: 71px;
+font-family: Overpass;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 23px;
+/* or 147% */
+
+
+}
+
+.kbox h1, p{
+    color: #000000;
+}
+
+
+.kbox-btn1{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 16px;
+margin: 20px 10px;
+width: 193px;
+height: 38px;
+border-color: none;
+
+background: #00AEFF;
+border-radius: 2px;
+color: white;
+font-family: Overpass;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 14px;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+
