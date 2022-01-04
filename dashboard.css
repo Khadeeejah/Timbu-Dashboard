@@ -742,11 +742,11 @@ color:#333333;
         margin-left: 0px;
     }
     
-     button{
+     /* button{
         width:50%;
         font-size: 12px;
         line-height: 14px;
-    } 
+    }  */
     .grid{
         max-height: 130px;
         flex-wrap: nowrap;
