@@ -334,17 +334,48 @@ table, th, td {
   }
 
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 990px) {
+.container-box{
+    width: 850px;
+    margin: 10px auto;
+}
+
+.grid-2 .text-2{
+    padding-left: 600px;
+}
+
    
   }
 
 @media screen and (max-width: 900px) {
+    .container-box{
+        width: 700px;
+    }
+
+    .grid-2 .text-2{
+        padding-left: 500px;
+    }
+
+    .cancel{
+        margin: 20px 400px;
+    }
     
     
 }
 
-@media screen and (max-width: 800px) {
-  
+@media screen and (max-width: 808px) {
+  .container-box{
+      width: 650px;
+  }
+
+   .grid-2{
+      flex-direction: row;
+      display: flex;
+      left: 7.3%;
+right: 88.32%;
+top: 43.65%;
+bottom: 52.9%;
+  }
 }
 
 

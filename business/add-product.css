@@ -503,9 +503,9 @@ border-radius: 2px;
         margin-left:-50px;
     }
 
-    button{
+    /* button{
         width:25%;
-    }
+    } */
 
     .businesses-container .container-row{
         height:350px;
@@ -617,10 +617,10 @@ border-radius: 2px;
         padding: 20px;
     }
 
-    button{
+    /* button{
         font-size: 14px;
         line-height: 16px;
-    }
+    } */
 
     /* .businesses-container .container-row{
         padding: 20px 30px;
@@ -807,11 +807,11 @@ border-radius: 2px;
         margin-left: 0px;
     }
     
-    button{
+    /* button{
         width:50%;
         font-size: 12px;
         line-height: 14px;
-    }
+    } */
     .grid{
         max-height: 130px;
         flex-wrap: nowrap;
