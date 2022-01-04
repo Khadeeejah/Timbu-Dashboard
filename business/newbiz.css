@@ -86,3 +86,61 @@ border: none;
 }
 
 
+@media screen and (max-width: 680px){
+
+    .kcontainer-box{
+        width: 650px;
+    }
+
+}
+
+
+@media screen and (max-width: 537px){
+
+    .kcontainer-box{
+        width: 500px;
+    }
+
+}
+
+@media screen and (max-width: 525px) {
+
+
+    .kcontainer-box{
+        width: 450px;
+    }
+
+    .kbox{
+        width: 400px; 
+        height: 50px;
+    }
+
+    .kbox h1,
+    .kbox p{
+        font-size: 12px;
+        
+    }
+}
+
+
+@media screen and (max-width: 486px){
+    .kcontainer-box{
+        margin: 15px auto;
+       
+    }
+}
+
+
+@media screen and (max-width: 320px){
+
+    .kcontainer-box{
+        width: 300px;
+    }
+
+    .kbox{
+        width: 250px; 
+       
+    }
+
+}
+

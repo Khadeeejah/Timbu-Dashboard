@@ -438,9 +438,10 @@ color:#333333;
         margin-left:-50px;
     }
 
-    /* button{
+    /* .btn-1,
+    .btn-2{
         width:25%;
-    } */
+    }  */
 
     .businesses-container .container-row{
         height:350px;
@@ -552,10 +553,11 @@ color:#333333;
         padding: 20px;
     }
 
-    /* button{
+    /* .btn-1,
+    .btn-2{
         font-size: 14px;
         line-height: 16px;
-    } */
+    }  */
 
     /* .businesses-container .container-row{
         padding: 20px 30px;
@@ -742,11 +744,11 @@ color:#333333;
         margin-left: 0px;
     }
     
-     /* button{
-        width:50%;
-        font-size: 12px;
-        line-height: 14px;
-    }  */
+     /* .btn-1{
+        width:60%;
+        font-size: 5px;
+        line-height: 10px;
+    }    */
     .grid{
         max-height: 130px;
         flex-wrap: nowrap;
