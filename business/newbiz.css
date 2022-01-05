@@ -86,6 +86,38 @@ border: none;
 }
 
 
+@media screen and (max-width: 946px){
+.kcontainer-box{
+    width: 730px;
+}
+
+}
+
+
+@media screen and (max-width: 866px){
+.kcontainer-box{
+    margin: 20px auto;
+    width: 650px;
+}
+}
+
+
+@media screen and (max-width: 866px){
+    .kbox{
+width: 800px;
+    }
+
+
+    .kbox p{
+        font-size: 12px;
+    }
+
+    
+}
+
+
+
+
 @media screen and (max-width: 680px){
 
     .kcontainer-box{
@@ -93,6 +125,8 @@ border: none;
     }
 
 }
+
+
 
 
 @media screen and (max-width: 537px){
