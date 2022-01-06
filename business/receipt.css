@@ -304,6 +304,7 @@ table, th, td {
    margin: 20px 642px;
     border: none;
     background:red;
+    color: white;
     border-radius: 2px;
     
   }
