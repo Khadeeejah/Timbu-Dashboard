@@ -46,6 +46,7 @@ body{
     align-items: center;
     justify-content: center;
     padding: 20px 100px;
+    
 }
 
 .btn1,
@@ -79,6 +80,7 @@ body{
     box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.06);
     border-radius: 4px;
     position:relative;
+    overflow-x: hidden;
 }
   
 .container-top{
@@ -87,6 +89,7 @@ body{
     flex-direction: row;
     justify-content: left;
     border-bottom:1px solid #EAEAEA;
+    overflow-x: hidden;
 }
 
 .title{
