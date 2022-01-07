@@ -799,3 +799,478 @@ color:#333333;
         font-size: 12px;
     }
 }
+
+
+
+
+
+/* empty state style */
+
+.empty-container{
+    width: 1080px;
+    height: 104px;
+align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+    
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 8px;
+    
+}
+
+.empty-container .kh1{
+    font-family: Overpass;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 23px;
+/* identical to box height, or 147% */
+align-items: center;
+justify-content: center;
+color: #000000;
+
+padding: 20px 40px;
+
+
+}
+
+.empty-container1{
+    width: 1080px;
+    height: 239px;
+align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+    
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 8px;
+    
+}
+
+
+.empty{
+    width: 557px;
+height: 71px;
+align-items: center;
+justify-content: center;
+font-family: Overpass;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 23px;
+/* or 147% */
+
+padding: 20px 40px;
+
+
+}
+
+.empty .no-pro{
+    color: #000000;
+    font-family: Overpass;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 23px;
+/* or 147% */
+}
+
+.no-btns{
+    
+    
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    margin: 20px 10px;
+    
+   
+   
+
+width: 193px;
+height: 38px;
+
+
+background: #00AEFF;
+border-radius: 2px;
+font-family: Overpass;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 100% */
+
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+
+border: none;
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+
+}
+
+
+
+@media screen and (max-width:1089px){
+ .empty-container1{
+     width: 1000px;
+ }
+}
+
+
+@media screen and (max-width:1024px){
+    .empty-container{
+        width: 900px;
+    }
+}
+
+
+@media screen and (max-width:971px){
+.empty-container1{
+    width: 800px;
+}
+}
+
+@media screen and (max-width:964px){
+.empty-container{
+    width: 800px;
+}
+}
+
+@media screen and (max-width:830px){
+    .empty-container1{
+        width: 700px;
+        margin: 10px auto;
+    }
+}
+
+
+@media screen and (max-width:720px){
+    .empty-container{
+        width: 650px;
+    }
+}
+
+
+
+@media screen and (max-width: 680px){
+
+    .empty-container1{
+        width: 650px;
+    }
+
+   
+}
+
+@media screen and (max-width: 664px){
+    .empty-container{
+        width: 600px;
+    }
+}
+
+
+
+@media screen and (max-width: 537px){
+
+   
+
+
+    .empty-container{
+        width: 500px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 525px) {
+
+
+    .empty-container1{
+        width: 450px;
+    }
+
+    .empty{
+        width: 400px; 
+        height: 50px;
+    }
+
+    .empty .no-pro,
+    .empty p{
+        font-size: 12px;
+        
+    }
+}
+
+
+@media screen and (max-width: 486px){
+    .empty-container1{
+        margin: 15px auto;
+       
+    }
+
+    .empty-container{
+        width: 400px;
+    }
+
+    .empty-container .kh1{
+        font-size: 12px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 406px){
+    .empty-container1{
+width: 350px;
+    }
+}
+
+
+
+@media screen and (max-width: 320px){
+
+    .empty-container1{
+        width: 300px;
+    }
+
+    .empty{
+        width: 250px; 
+       
+    }
+
+    .empty-container{
+        width: 290px;
+    }
+
+    .empty-container .kh1{
+        font-size: 12px;
+    }
+}
+
+
+
+
+/* no-info styling */
+
+
+
+.bus-nav h2{
+    font-family: Overpass;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 37px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+
+color: #000000;
+
+}
+
+
+
+.info-container{
+    width: 1100px;
+height: 1200px;
+background: #FFFFFF;
+border: 1px solid #EAEAEA;
+border-radius: 8px;
+
+margin: 50px auto;
+}
+
+
+
+
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    justify-content: center;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+
+ .h3{
+    font-family: Overpass;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 23px;
+/* identical to box height, or 98% */
+
+margin-left: 30px;
+margin-top: 50px;
+
+/* Text Colour/1 */
+
+color: #333333;
+}
+
+
+.edt button{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 16px;
+
+border: none;
+width: 181px;
+height: 38px;
+margin-left: 650px;
+margin-top: 40px;
+color: white;
+background: #00AEFF;
+border-radius: 2px;
+}
+
+
+    
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    padding: 15px;
+    border-bottom: 1px solid #EAEAEA;
+  }
+
+
+  .grid-item{
+      margin-top: 20px;
+      margin-left: 20px;
+  }
+
+  .grid-item h5{
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #969696;
+  }
+
+
+  .grid-item p{
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    
+    
+    
+    /* Secondary Colour / Dark Blue */
+    
+    color: #1A2B49;
+  }
+
+
+
+
+  .input-image-section{
+   
+    border-bottom: 1px solid #EAEAEA;
+   
+    
+    
+}
+
+
+.image-sub{
+    color: #969696;
+    font-size: 15px;
+}
+
+.images{
+    display: flex;
+}
+
+.input-img{
+    margin-right: 20px;
+    width:115px;
+    height:103px;
+    margin-left: 20px;
+
+}
+
+.image-title{
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #969696;
+    
+margin-bottom: 13px;
+margin-top: 13px;
+margin-left: 30px;
+}
+
+
+
+.last-grid .ktext{
+  
+
+margin-left: 20px;
+
+padding-top: 20px;
+padding-bottom: 50px;
+font-family: Overpass;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+/* Secondary Colour / Dark Blue */
+
+color: #1A2B49;
+}
+
+
+
+
+.last-grid h5{
+    font-family: Overpass;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+margin-left: 20px;
+display: flex;
+align-items: center;
+
+color: #969696;
+
+}
+
+
+
+
+/* ends here */
+
+
+/* ends here */
