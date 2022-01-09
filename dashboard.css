@@ -1284,7 +1284,17 @@ color: #969696;
     
 }
 
+@media screen and (max-width: 1044px){
 
+    .edt button{
+        margin-left: 400px;
+    }
+
+
+    .info-container{
+        width: 900px;
+    }
+}
 
 /* ends here */
 
